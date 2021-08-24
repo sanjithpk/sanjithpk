@@ -65,7 +65,7 @@ export default () => {
         </div>
         <div className="w-full mt-12 lg:mb-12">
           <button className="btn btn-primary">
-            <a href={resume}>
+            <a href={resume} target="_blank">
               Resume
             </a>
           </button>
