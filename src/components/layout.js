@@ -54,8 +54,7 @@ const Layout = ({ children, seo, front, navPlaceholder = true, location }) => {
     <>
       <Head data={query} />
       <Seo {...seo} />
-      <div className={`${themes[theme].name}`}>
-        <div className="text-color-default bg-bg">
+      <div className={`${themes[theme].name} text-color-default bg-bg`}>
           <Navbar
             front={front}
             navPlaceholder={navPlaceholder}
@@ -67,7 +66,6 @@ const Layout = ({ children, seo, front, navPlaceholder = true, location }) => {
           />
           {children}
           <Footer />
-        </div>
       </div>
     </>
   )

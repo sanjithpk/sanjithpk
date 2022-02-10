@@ -52,7 +52,7 @@ const Hero = () => {
         right="40px"
         background="bg-donut-purple"
       />
-      <div className="container mx-auto flex flex-col justify-center items-start min-h-[90vh] px-24">
+      <div className="container mx-auto flex flex-col justify-center items-start min-h-[90vh] px-2 lg:px-24">
         <h1 className="font-mono text-lg lg:text-xl">Hi, my name is</h1>
         <h2 className="text-5xl lg:text-6xl text-primary">{siteData.name}</h2>
         <h3 className="text-3xl lg:text-4xl mt-0 leading-tight text-color-2">
