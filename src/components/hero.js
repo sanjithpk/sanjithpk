@@ -4,7 +4,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import resume from "../assets/resume.pdf"
 import { Circle, Donut } from "./shapes"
 
-export default () => {
+const Hero = () => {
   const querry = useStaticQuery(graphql`
     query HeroQuery {
       site: site {
@@ -52,12 +52,10 @@ export default () => {
         right="40px"
         background="bg-donut-purple"
       />
-      <div className="container py-20 px-6 lg:px-24 mx-auto">
+      <div className="container mx-auto flex flex-col justify-center items-start min-h-[90vh] px-24">
         <h1 className="font-mono text-lg lg:text-xl">Hi, my name is</h1>
-        <h2 className="text-5xl lg:text-6xl text-primary m-0">
-          {siteData.name}
-        </h2>
-        <h3 className="text-4xl lg:text-5xl mt-0 leading-tight text-color-2">
+        <h2 className="text-5xl lg:text-6xl text-primary">{siteData.name}</h2>
+        <h3 className="text-3xl lg:text-4xl mt-0 leading-tight text-color-2">
           {siteData.description}
         </h3>
         <div className="lg:w-2/3 mt-6">
@@ -65,7 +63,7 @@ export default () => {
         </div>
         <div className="w-full mt-12 lg:mb-12">
           <button className="btn btn-primary">
-            <a href={resume} target="_blank">
+            <a href={resume} target="_blank" rel="noreferrer">
               Resume
             </a>
           </button>
@@ -74,3 +72,5 @@ export default () => {
     </section>
   )
 }
+
+export default Hero

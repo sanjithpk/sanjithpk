@@ -3,10 +3,10 @@ import { Link } from "gatsby"
 import ChevronLeft from "./icons/chevronLeft"
 import ChevronRight from "./icons/chevronRight"
 
-export default function({ pageContext, type }) {
+const Pagination = ({ pageContext, type }) => {
   if (pageContext.numPages > 1) {
     const listItems = Array.from({
-      length: pageContext.numPages
+      length: pageContext.numPages,
     }).map((_, p) => (
       <Item
         type={type}
@@ -67,3 +67,5 @@ const Item = ({ type, currentPage, title, page, icon }) => {
     </li>
   )
 }
+
+export default Pagination

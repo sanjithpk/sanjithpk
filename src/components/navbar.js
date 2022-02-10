@@ -11,7 +11,7 @@ const Navbar = ({
   currentTheme,
   switchTheme,
   themes,
-  allowThemeSwitch = true
+  allowThemeSwitch = true,
 }) => {
   const currentLocation = location.pathname.split("/")[1]
 
@@ -63,7 +63,7 @@ const Navbar = ({
           style={{
             transform: "translateY(-50%)",
             top: "50%",
-            left: "10px"
+            left: "10px",
           }}
           onClick={() => {
             setSidebarOpen(true)

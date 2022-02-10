@@ -3,7 +3,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import avatar from "../assets/avatar.jpg"
 
-export default () => {
+const About = () => {
   const querry = useStaticQuery(graphql`
     query AboutQuery {
       site: site {
@@ -69,3 +69,5 @@ export default () => {
     </section>
   )
 }
+
+export default About

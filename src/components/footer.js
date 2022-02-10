@@ -2,7 +2,7 @@ import React from "react"
 import { useStaticQuery, graphql, Link } from "gatsby"
 import Social from "./icons/social"
 
-export default function() {
+const Footer = () => {
   const query = useStaticQuery(graphql`
     query FooterLinksQuery {
       site {
@@ -40,3 +40,5 @@ export default function() {
     </footer>
   )
 }
+
+export default Footer

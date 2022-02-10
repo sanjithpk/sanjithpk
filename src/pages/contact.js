@@ -4,13 +4,13 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import { Form } from "../components/contact"
 
-export default ({ data, location }) => {
+const Contact = ({ data, location }) => {
   const api_url = data.site.siteMetadata.contact.api_url
   const hasContactForm = api_url
   return (
     <Layout
       seo={{
-        title: "Contact"
+        title: "Contact",
       }}
       location={location}
     >
@@ -41,3 +41,5 @@ export const query = graphql`
     }
   }
 `
+
+export default Contact

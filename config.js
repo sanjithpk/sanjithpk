@@ -1,5 +1,5 @@
 module.exports = {
-  title: "Sanjih PK | Developer",
+  title: "Sanjih PK",
   description: "Exploring efficient ways of developing applications.",
   subDescription: `I'm currently a software engineer and love solving real world problems and passionate about web development and related fields. I have experience in building web applications using React, Gatsby, and NextJS, and mobile applications using React Native.`,
   siteKeywords: "Sanjith PK, Sanjith, sanjithpk, developer, javascript",

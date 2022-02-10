@@ -1,6 +1,6 @@
 import React from "react"
 
-export default ({ name }) => {
+const Social = ({ name }) => {
   switch (name) {
     case "Github":
       return <Github />
@@ -16,6 +16,8 @@ export default ({ name }) => {
       return
   }
 }
+
+export default Social
 
 export const Github = () => (
   <svg

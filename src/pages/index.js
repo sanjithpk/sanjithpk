@@ -8,7 +8,7 @@ import Projects from "../components/projects"
 
 import ItemBlog from "../components/item-blog"
 
-export default ({ data, location }) => {
+const IndexPage = ({ data, location }) => {
   const blogList = data.blog.edges.map(item => (
     <ItemBlog data={item.node} key={`b-item-index-${item.node.id}`} />
   ))
@@ -16,7 +16,7 @@ export default ({ data, location }) => {
   return (
     <Layout
       seo={{
-        title: "Home"
+        title: "Home",
       }}
       location={location}
     >
@@ -65,3 +65,5 @@ export const query = graphql`
     }
   }
 `
+
+export default IndexPage

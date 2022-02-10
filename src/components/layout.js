@@ -1,18 +1,13 @@
-import React, { useState, useEffect } from "react"
+import React, { useEffect, useState } from "react"
 import Helmet from "react-helmet"
+import Footer from "./footer"
 import { useStaticQuery, graphql } from "gatsby"
-
-import "../style/index.css"
-
 import SunIcon from "./icons/sun"
 import MoonIcon from "./icons/moon"
-
+import Seo from "./seo"
 import Navbar from "./navbar"
-import Footer from "./footer"
 
-import SEO from "../components/seo"
-
-export default ({ children, seo, front, navPlaceholder = true, location }) => {
+const Layout = ({ children, seo, front, navPlaceholder = true, location }) => {
   const query = useStaticQuery(graphql`
     query ThemeQuery {
       site {
@@ -29,13 +24,13 @@ export default ({ children, seo, front, navPlaceholder = true, location }) => {
     {
       name: "theme-light",
       label: "Light Theme",
-      icon: <SunIcon />
+      icon: <SunIcon />,
     },
     {
       name: "theme-dark",
       label: "Dark Theme",
-      icon: <MoonIcon />
-    }
+      icon: <MoonIcon />,
+    },
   ]
 
   const isDarkTheme = query.site.siteMetadata.darkmode
@@ -56,10 +51,10 @@ export default ({ children, seo, front, navPlaceholder = true, location }) => {
   }
 
   return (
-    <React.Fragment>
+    <>
       <Head data={query} />
-      <SEO {...seo} />
-      <div className={`wrapper ${themes[theme].name}`}>
+      <Seo {...seo} />
+      <div className={`${themes[theme].name}`}>
         <div className="text-color-default bg-bg">
           <Navbar
             front={front}
@@ -74,7 +69,7 @@ export default ({ children, seo, front, navPlaceholder = true, location }) => {
           <Footer />
         </div>
       </div>
-    </React.Fragment>
+    </>
   )
 }
 
@@ -85,3 +80,5 @@ const Head = ({ data }) => {
     </Helmet>
   )
 }
+
+export default Layout

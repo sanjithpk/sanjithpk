@@ -5,7 +5,7 @@ import { MDXProvider } from "@mdx-js/react"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import { Github, External } from "./icons/social"
 
-export default () => {
+const Projects = () => {
   const query = useStaticQuery(graphql`
     query ProjectsQuery {
       allMdx(
@@ -115,3 +115,5 @@ const Project = ({ data }) => {
     </div>
   )
 }
+
+export default Projects

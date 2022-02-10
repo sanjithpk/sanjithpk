@@ -6,7 +6,7 @@ const NotFoundPage = ({ location }) => {
   return (
     <Layout
       seo={{
-        title: "404"
+        title: "404",
       }}
       location={location}
     >
