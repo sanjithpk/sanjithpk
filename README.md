@@ -5,7 +5,7 @@ I like experimenting with new technologies, building side projects, and occassio
 Here's a list of things I currently keep myself busy with:
 
 - 🚀 Working on Fullstack Web Projects using React and Node.
-- 🛠 Getting myself into JAMStack. Trying out [Gatsby](https://remix.run) in my spare time.
+- 🛠 Getting myself into JAMStack. Trying out [Remix](https://remix.run) in my spare time.
 
 <details>
   <summary>Some other facts about me</summary>
