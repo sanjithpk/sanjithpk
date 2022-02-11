@@ -1,11 +1,11 @@
 <img src="https://raw.githubusercontent.com/sanjithpk/sanjithpk/master/readme/hero.svg" alt="hero image">
 
-I like experimenting with new technologies, building small projects, and occassionally joining hackathons. ✨
+I like experimenting with new technologies, building side projects, and occassionally joining hackathons. ✨
 
 Here's a list of things I currently keep myself busy with:
 
 - 🚀 Working on Fullstack Web Projects using React and Node.
-- 🛠 Getting myself into JAMStack. Trying out [Gatsby](https://gatsbyjs.org) in my spare time.
+- 🛠 Getting myself into JAMStack. Trying out [Gatsby](https://remix.run) in my spare time.
 
 <details>
   <summary>Some other facts about me</summary>
