@@ -4,8 +4,8 @@ I like experimenting with new technologies, building side projects, and occassio
 
 Here's a list of things I currently keep myself busy with:
 
-- 🚀 Working on Fullstack Web Projects using React and Node.
-- 🛠 Getting myself into JAMStack. Trying out [Remix](https://remix.run) in my spare time.
+- 🚀 Working on Fullstack Web Projects using React and Golang.
+- 🛠 Trying out [Svelte](https://svelte.dev) in my spare time.
 
 <details>
   <summary>Some other facts about me</summary>
@@ -19,14 +19,10 @@ Here's a list of things I currently keep myself busy with:
   <i>Let's connect and chat! Open to anything under the sun.</i>
 
   <p align="center">
-    <a href="https://twitter.com/sanjithpk" alt="Icon"><img src="https://raw.githubusercontent.com/sanjithpk/sanjithpk/master/readme/twitter.svg"></a>
-    <a href="https://linkedin.com/in/sanjithpk" alt="Icon"><img src="https://raw.githubusercontent.com/sanjithpk/sanjithpk/master/readme/linkedin.svg"></a>
-    <a href="mailto:sanjithpk07@gmail.com" alt="Icon"><img src="https://raw.githubusercontent.com/sanjithpk/sanjithpk/master/readme/mail.svg"></a>
-    <a href="https://sanjith.me" alt="Icon"><img src="https://raw.githubusercontent.com/sanjithpk/sanjithpk/master/readme/external-link.svg"></a>
-  </p>
-
-  <p align="center">
-    <img align="center" src="https://visitor-badge.glitch.me/badge?page_id=sanjithpk.visitor-badge">
+    <a href="https://www.linkedin.com/in/sanjithpk/"><img src="https://img.shields.io/badge/-sanjithpk-blue?style=flat&amp;logo=Linkedin&amp;logoColor=white&amp;link=https://www.linkedin.com/in/sanjithpk" alt="Linkedin Badge"></a>
+    <a href="https://x.com/sanjithpk"><img src="https://img.shields.io/badge/-@sanjithpk-000000?style=flat&amp;labelColor=000000&amp;logo=X&amp;link=https://x.com/sanjithpk" alt="X Badge"></a>
+    <a href="https://sanjith.me"><img src="https://img.shields.io/badge/-sanjith.me-005EBF?style=flat&amp;logo=Google-Chrome&amp;logoColor=white&amp;link=https://sanjith.me" alt="Website Badge"></a>
+    <a href="https://instagram.com/sanjithpk"><img src="https://img.shields.io/badge/-@sanjithpk-purple?style=flat&amp;logo=instagram&amp;logoColor=white&amp;link=https://instagram.com/sanjithpk/" alt="Instagram Badge"></a>
   </p>
 </p>
 
