@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Engineering, A 4-year guide",
+    "description": "How to make the most of your four years in computer science engineering.",
+    "dateFormatted": "August 24th, 2021",
+    "content": "",
+    "link": "/post/plan-your-four-years"
+  },
+  {
+    "title": "Useful Python Functions",
+    "description": "Python functions that can help you write less code which is also readable.",
+    "dateFormatted": "March 15th, 2020",
+    "content": "",
+    "link": "/post/useful-python-functions"
+  },
+  {
+    "title": "Top 12 VS Code Extensions to have in 2020",
+    "description": "The VS Code Extensions, Theme and Settings I use to increase my productivity.",
+    "dateFormatted": "July 10th, 2020",
+    "content": "",
+    "link": "/post/best-vs-code-extensions"
+  }
+]

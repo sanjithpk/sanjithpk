@@ -1,0 +1,23 @@
+[
+  {
+    "dates": "Jan 2022 · August 2023",
+    "role": "Associate Software Engineer",
+    "company": "Cargill",
+    "description": "Responsible for frontend of customer facing websites.",
+    "logo": "/assets/images/experiences/cargill.ico"
+  },
+  {
+    "dates": "June 2021 · Jan 2022",
+    "role": "Software Engineer",
+    "company": "Hashedin by Deloitte",
+    "description": "Responsible for akka backend for retail sales calculation.",
+    "logo": "/assets/images/experiences/hashedin.ico"
+  },
+  {
+    "dates": "June 2020 · August 2020",
+    "role": "Full Stack Developer Intern",
+    "company": "Wishcoin Media",
+    "description": "Intern, involved in the development of a payment tracking application ",
+    "logo": "/assets/images/experiences/wishcoin-media.ico"
+  }
+]

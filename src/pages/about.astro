@@ -1,0 +1,89 @@
+---
+import experiences from "../collections/experiences.json";
+import AboutExperience from "../components/about-experience.astro";
+import PageHeading from "../components/page-heading.astro";
+import Layout from "../layouts/main.astro";
+---
+
+<Layout title="About Me">
+  <section class="relative z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
+    <PageHeading title="About Me" description="Hello, I am Sanjith." />
+
+    <div
+      class="flex flex-col-reverse md:flex-row md:justify-between md:items-center"
+    >
+      <div class="md:w-3/5">
+        <p class="text-sm leading-6 text-gray-600 dark:text-neutral-400">
+          I enjoy creating things that live on the internet, whether that be
+          websites, applications, or anything in between. My goal is to always
+          build products that provide performant and rich experiences to the end
+          users.
+        </p>
+        <br />
+        <p class="text-sm leading-6 text-gray-600 dark:text-neutral-400">
+          Being a developer is much more than just writing code. Communication
+          skills, a clear mindset, result focused systems, and the ability to
+          set realistic steps to achieve the future result is crucial to a
+          developer's worth.
+        </p>
+      </div>
+      <img
+        src="/assets/images/avatar.jpg"
+        class="relative z-30 md:w-1/3 my-10 rounded-xl"
+      />
+    </div>
+
+    <h2
+      class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200"
+    >
+      Experience
+    </h2>
+    <div class="px-5 py-10">
+      {
+        experiences.map((experience, loop) => {
+          return (
+            <>
+              {loop == 0 || loop == 1 ? (
+                <div class="pb-10 border-l border-gray-200 dark:border-neutral-700">
+                  <AboutExperience
+                    dates={experience.dates}
+                    role={experience.role}
+                    company={experience.company}
+                    description={experience.description}
+                    logo={experience.logo}
+                  />
+                </div>
+              ) : (
+                <AboutExperience
+                  dates={experience.dates}
+                  role={experience.role}
+                  company={experience.company}
+                  description={experience.description}
+                  logo={experience.logo}
+                />
+              )}
+            </>
+          );
+        })
+      }
+    </div>
+
+    <h2
+      class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200"
+    >
+      Let's Connect
+    </h2>
+    <p
+      class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
+    >
+      If you want to stay up to date with my work be sure to <a
+        href="https://twitter.com/sanjithpk"
+        target="_blank"
+        class="text-indigo-600 underline">follow me on twitter</a
+      >, or you can send me an <a
+        href="mailto:sanjithpk07@gmail.com"
+        class="text-indigo-600 underline">email</a
+      > and I'll be sure to get back to you.
+    </p>
+  </section>
+</Layout>

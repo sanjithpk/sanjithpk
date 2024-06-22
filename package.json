@@ -1,52 +1,26 @@
 {
   "name": "sanjithpk",
-  "version": "2.1.0",
-  "private": true,
-  "description": "Personal Website v2.1",
-  "author": "Sanjith",
-  "license": "MIT",
-  "keywords": [
-    "gatsby"
-  ],
+  "type": "module",
+  "version": "3.0.0",
   "scripts": {
-    "dev": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean"
-  },
-  "dependencies": {
-    "autoprefixer": "^10.4.2",
-    "gatsby": "^4.7.1",
-    "gatsby-image": "^3.11.0",
-    "gatsby-plugin-manifest": "^4.7.0",
-    "gatsby-plugin-mdx": "^3.7.0",
-    "gatsby-plugin-offline": "^5.7.0",
-    "gatsby-plugin-postcss": "^5.7.0",
-    "gatsby-plugin-react-helmet": "^5.7.0",
-    "gatsby-plugin-sharp": "^4.7.0",
-    "gatsby-remark-images": "^6.7.0",
-    "gatsby-source-filesystem": "^4.7.0",
-    "gatsby-transformer-sharp": "^4.7.0",
-    "mdx-utils": "^0.2.0",
-    "postcss": "^8.4.6",
-    "prism-react-renderer": "^1.3.1",
-    "prop-types": "^15.8.1",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-helmet": "^6.1.0",
-    "tailwind-theme-switcher": "^1.0.2",
-    "tailwindcss": "^3.0.19"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "check": "biome check --apply-unsafe ."
   },
   "devDependencies": {
-    "lodash": "^4.17.21",
-    "prettier": "^2.5.1"
+    "@astrojs/check": "^0.6.0",
+    "@astrojs/tailwind": "^5.1.0",
+    "@biomejs/biome": "1.7.3",
+    "@tailwindcss/typography": "^0.5.13",
+    "astro": "^4.8.2",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.4.5"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/sanjithpk/sanjithpk.github.io"
-  },
-  "bugs": {
-    "url": "https://github.com/sanjithpk/sanjithpk.github.io/issues"
+  "dependencies": {
+    "@astrojs/check": "^0.7.0",
+    "typescript": "^5.4.5"
   }
 }

@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Opvizor",
+    "description": "An operations management system.",
+    "image": "/assets/images/projects/opvizor.png",
+    "url": "https://github.com/sanjithpk/opvizor"
+  },
+  {
+    "name": "Reporting System",
+    "description": "A journal for club members.",
+    "image": "/assets/images/projects/telegram.png",
+    "url": "https://github.com/sanjithpk/zero-sama"
+  },
+  {
+    "name": "Crown Clothing",
+    "description": "An e-commerce clothing website",
+    "image": "/assets/images/projects/crown-clothing.jpg",
+    "url": "https://github.com/sanjithpk/crown-clothing"
+  }
+]
