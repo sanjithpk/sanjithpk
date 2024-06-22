@@ -1,12 +1,12 @@
 ---
-import Button from "../components/button.astro";
-import Projects from "../components/home/projects.astro";
-import Separator from "../components/home/separator.astro";
-import Writings from "../components/home/writings.astro";
-import Layout from "../layouts/main.astro";
+import Button from "../components/button.astro"
+import Projects from "../components/home/projects.astro"
+import Separator from "../components/home/separator.astro"
+import Writings from "../components/home/writings.astro"
+import Layout from "../layouts/main.astro"
 ---
 
-<Layout title="Kai">
+<Layout title="Sanjith">
   <div
     class="relative z-20 w-full max-w-4xl mx-auto mt-16 px-7 md:mt-24 lg:mt-32 xl:px-0"
   >
@@ -18,17 +18,25 @@ import Layout from "../layouts/main.astro";
           Hi, I'm Sanjith.
         </h1>
         <p class="mb-6 text-base text-neutral-800 dark:text-neutral-200">
-          Exploring efficient ways of developing applications.</span
-          >
+          Exploring efficient ways of developing applications.
         </p>
         <ul
           class="py-2 space-y-[3px] text-sm list-disc list-inside text-neutral-500 dark:text-neutral-400"
         >
           <p>
-            Driven software engineer with a proven track record in optimizing web performance, scaling applications, and crafting user-centric digital solutions. My experience includes reducing website load times by significant margins, developing scalable multi-node applications, and building intuitive user interfaces for applications.
+            Driven software engineer with a proven track record in optimizing
+            web performance, scaling applications, and crafting user-centric
+            digital solutions. My experience includes reducing website load
+            times by significant margins, developing scalable multi-node
+            applications, and building intuitive user interfaces for
+            applications.
           </p>
         </ul>
-        <Button target="_blank" text="Look at my Resume" link="https://drive.google.com/file/d/1Nrc2uIeURNIdk-m5jSCqasUE4DRHv4G5/view?usp=sharing" />
+        <Button
+          target="_blank"
+          text="Look at my Resume"
+          link="https://drive.google.com/file/d/1Nrc2uIeURNIdk-m5jSCqasUE4DRHv4G5/view?usp=sharing"
+        />
       </div>
       <div
         class="relative justify-end hidden w-full mt-10 md:flex md:pl-10 md:w-1/2 md:mt-0 md:translate-y-4 xl:translate-y-0"
@@ -63,8 +71,8 @@ import Layout from "../layouts/main.astro";
     </div>
   </div>
 
-  <Separator text="Check out my projects" />
+  <Separator text="Check out my projects" id="projects" href="#projects" />
   <Projects />
-  <Separator text="Some of my writing" />
+  <Separator text="Some of my writing" id="blogs" href="#blogs" />
   <Writings />
 </Layout>
